@@ -47,7 +47,8 @@ Route::controller(cursocontroller::class)->group(function(){
 
 
     /*en el formulario edit esta la ruta y aqui creamos la ruta con el metodo
-    put que es para modicar los valores y recibe el id o en este caso la variable curso */
+    put que es para modicar los valores y recibe el id o en este caso la variable curso 
+    */
     Route::put('cursos/{curso}','update')->name('curso.update');
 
 
